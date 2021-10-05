@@ -1,0 +1,12 @@
+.navbar__link {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    opacity: 1;
+    transition: opacity .25s ease;
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    opacity: .8;
+}
