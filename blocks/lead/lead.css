@@ -1,5 +1,7 @@
 .lead {
     position: relative;
-    width: 928px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 48px;
     margin-bottom: 92px;
 }

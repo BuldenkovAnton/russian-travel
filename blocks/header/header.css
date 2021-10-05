@@ -2,5 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 48px;
+    margin: 0 auto 48px auto;
 }
