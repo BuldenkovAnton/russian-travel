@@ -3,13 +3,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .cover {
+    .page__item_section_cover {
         margin: 0 0 88px 0;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .cover {
+    .page__item_section_cover {
         margin: 0 0 64px 0;
     }
 }

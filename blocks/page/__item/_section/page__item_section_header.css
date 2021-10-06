@@ -1,0 +1,9 @@
+.page__item_section_header {
+    margin: 0 auto 48px auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .page__item_section_header {
+        margin: 0 auto 56px auto;
+    }
+}
