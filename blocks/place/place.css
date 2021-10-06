@@ -1,19 +1,13 @@
 .place {
     position: relative;
-    margin: 0 0 80px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px 32px;
 }
 
-.place:last-child {
-    margin: 0;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
-        margin: 0 0 73px 0;
         gap: 48px 28px;
     }
 }
@@ -22,7 +16,6 @@
     .place {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, minmax(min-content, max-content));
-        margin: 0 0 50px 0;
         gap: 32px;
     }
 }
