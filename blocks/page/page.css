@@ -1,5 +1,4 @@
 .page {
-    max-width: 1024px;
     background-color: #2A2C2F;
     margin: 0 auto;
     font-family: 'Inter',  sans-serif;
@@ -19,15 +18,8 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .page {
         padding: 16px 0 0;
-        max-width: 320px;
     }
 }
