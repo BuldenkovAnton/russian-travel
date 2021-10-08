@@ -1,10 +1,9 @@
 .header__lang-link {
     display: block;
-    margin: 0 18px 0 0;
     font-size: 24px;
     line-height: 28px;
     text-align: right;
-    text-decoration: underline;
+    text-decoration: none;
     color: #fff;
     opacity: 1;
     transition: opacity .25s ease;
@@ -12,11 +11,6 @@
 
 .header__lang-link:hover {
     opacity: .8;
-}
-
-.header__lang-link:nth-child(2n) {
-    margin: 0;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
